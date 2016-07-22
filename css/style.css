@@ -1,5 +1,9 @@
 @import url(reset.css);
-/* line 11, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+/* line 12, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
+h1 {
+  color: white; }
+
+/* line 15, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
 body {
   padding: 0;
   margin: 0;
@@ -8,52 +12,48 @@ body {
   font-family: "Interstate", Helvetica, Arial, sans-serif;
   letter-spacing: .025em;
   color: #333;
-  line-height: 1.5; }
+  line-height: 1.5;
+  font-size: 16px; }
 
-/* line 22, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+/* line 27, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
 * {
   box-sizing: inherit; }
 
-/* line 26, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+/* line 30, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
+p {
+  padding: 0 !important; }
+
+/* line 33, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
 a {
   font-family: "Interstate", sans-serif;
   color: #666;
   text-decoration: none;
   text-transform: uppercase; }
 
-/* line 33, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-h1 {
-  text-align: center;
-  font-size: 5em;
-  font-family: "Interstate", Helvetica, sans-serif;
-  padding: 1em 0em;
-  text-transform: uppercase;
-  background-color: transparent; }
-
-/* line 42, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+/* line 49, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
 strong {
   font-weight: bold; }
 
-/* line 46, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+/* line 53, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
 .navbar {
   background: transparent;
   padding: 0;
   text-align: center;
   font-size: 14px;
   width: 100%; }
-  /* line 53, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+  /* line 60, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
   .navbar.slide-active {
     overflow-x: hidden;
     overflow-y: visible;
     height: 64px; }
-    /* line 58, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    /* line 65, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .navbar.slide-active .nav-container {
       left: 230px;
       position: fixed; }
-    /* line 62, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    /* line 69, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .navbar.slide-active ul.slide-menu {
       left: 0; }
-  /* line 67, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+  /* line 74, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
   .navbar ul.slide-menu {
     width: 230px;
     left: -230px;
@@ -68,19 +68,19 @@ strong {
     position: fixed;
     border-right: 1px solid #ccc;
     height: 2500px; }
-    /* line 82, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    /* line 89, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .navbar ul.slide-menu > li {
       display: block;
       padding: 0;
       border-bottom: 1px solid #ccc; }
-      /* line 87, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 94, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar ul.slide-menu > li:first-of-type {
         padding: 18.5px 30px; }
-      /* line 91, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 98, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar ul.slide-menu > li form {
         line-height: 24px;
         position: relative; }
-        /* line 95, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 102, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar ul.slide-menu > li form input[type=text], .navbar ul.slide-menu > li form input[type=search] {
           border: none;
           border-bottom: 1px solid #333;
@@ -90,10 +90,10 @@ strong {
           border-radius: 0;
           -webkit-appearance: none;
           width: 100%; }
-          /* line 105, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+          /* line 112, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
           .navbar ul.slide-menu > li form input[type=text]:focus, .navbar ul.slide-menu > li form input[type=search]:focus {
             outline: 0; }
-        /* line 110, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 117, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar ul.slide-menu > li form input[type=submit] {
           background: url("../img/search_img.png") top left no-repeat;
           text-indent: -9999px;
@@ -103,47 +103,47 @@ strong {
           position: absolute;
           top: 8px;
           right: 8px; }
-          /* line 120, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+          /* line 127, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
           .navbar ul.slide-menu > li form input[type=submit]:hover {
             cursor: pointer; }
-      /* line 126, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 133, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar ul.slide-menu > li > a {
         display: block;
         color: #333;
         background: url("../img/accordion-arrow-down.gif") 195px center no-repeat;
         padding: 20px 30px; }
-        /* line 132, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 139, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar ul.slide-menu > li > a.open {
           background-image: url("../img/accordion-arrow-up.gif"); }
-        /* line 136, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 143, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar ul.slide-menu > li > a.no-arrow {
           background: none; }
-        /* line 140, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 147, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar ul.slide-menu > li > a span {
           vertical-align: top;
           top: 2px;
           left: 5px;
           position: relative; }
-      /* line 148, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 155, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar ul.slide-menu > li ul {
         display: none;
         list-style: none;
         padding: 0 30px; }
-        /* line 153, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 160, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar ul.slide-menu > li ul li {
           display: block;
           padding: 0;
           font-size: .8em; }
-          /* line 159, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+          /* line 166, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
           .navbar ul.slide-menu > li ul li:first-of-type a {
             padding-top: 0; }
-          /* line 164, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+          /* line 171, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
           .navbar ul.slide-menu > li ul li a {
             color: #333;
             padding: 1em 2em;
             display: block;
             line-height: 1.5em; }
-  /* line 175, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+  /* line 182, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
   .navbar .nav-container {
     background: white;
     display: flex;
@@ -157,53 +157,53 @@ strong {
     width: 100%;
     transition: left 0.5s ease;
     left: 0; }
-    /* line 189, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    /* line 196, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .navbar .nav-container.fixed {
       position: fixed; }
-      /* line 195, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 202, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container.fixed .logo a.navbar-logo .content img {
         height: 56px;
         transition: height 0.5s ease; }
-      /* line 204, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 211, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container.fixed .search-and-country form#input_ZOSearchBoxComponent {
         top: 75px; }
-      /* line 212, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 219, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container.fixed .nav-left li a img.active-triangle, .navbar .nav-container.fixed .nav-right li a img.active-triangle {
         top: 36px; }
-      /* line 216, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 223, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container.fixed .nav-left li ul.drop-down, .navbar .nav-container.fixed .nav-right li ul.drop-down {
         top: 75px; }
-    /* line 223, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    /* line 230, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .navbar .nav-container .left-menu {
       display: none; }
-    /* line 227, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    /* line 234, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .navbar .nav-container .search-and-country {
       order: 1;
       flex-grow: 3;
       flex-basis: 0;
       text-align: left; }
-      /* line 234, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 241, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container .search-and-country.open-search form#input_ZOSearchBoxComponent {
         height: 80px;
         transition: height 0.5s ease, padding 0.5s ease, border 0s;
         padding: 0.5em 1em;
         border-top-width: 4px;
         z-index: 10; }
-      /* line 243, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 250, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container .search-and-country.open-search a img.active-triangle {
         display: block; }
-      /* line 250, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 257, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container .search-and-country.open-country ul#desktop-country-selector {
         height: 100px;
         padding: 1em;
         border-width: 1px;
         transition: height 0.5s ease, border 0s, padding-left 0s, padding-right 0s;
         z-index: 11; }
-      /* line 259, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 266, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container .search-and-country.open-country a#nav-country {
         background: url("../img/country-selector-arrow.png") right 4px no-repeat;
         padding-right: 4px; }
-      /* line 266, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 273, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container .search-and-country a {
         display: inline-block;
         margin: 0 9px;
@@ -212,19 +212,19 @@ strong {
         color: #666;
         padding-right: 0;
         font-weight: 500; }
-        /* line 277, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 284, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar .nav-container .search-and-country a img.active-triangle {
           position: absolute;
           bottom: 0;
           display: none; }
-        /* line 284, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 291, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar .nav-container .search-and-country a span {
           vertical-align: top;
           letter-spacing: 1px;
           position: relative;
           top: 2px;
           padding: 2px 5px; }
-      /* line 293, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 300, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container .search-and-country form#input_ZOSearchBoxComponent {
         height: 0;
         overflow: hidden;
@@ -240,7 +240,7 @@ strong {
         padding: 0 1em;
         font-size: 2em;
         z-index: 9; }
-        /* line 309, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 316, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar .nav-container .search-and-country form#input_ZOSearchBoxComponent input[type=search], .navbar .nav-container .search-and-country form#input_ZOSearchBoxComponent input[type=text] {
           text-transform: uppercase;
           width: 100%;
@@ -251,16 +251,16 @@ strong {
           color: #333;
           font-weight: bold;
           font-size: 1em; }
-          /* line 320, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+          /* line 327, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
           .navbar .nav-container .search-and-country form#input_ZOSearchBoxComponent input[type=search]:focus, .navbar .nav-container .search-and-country form#input_ZOSearchBoxComponent input[type=text]:focus {
             outline: 0; }
-        /* line 325, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 332, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar .nav-container .search-and-country form#input_ZOSearchBoxComponent input[type=submit] {
           width: 0;
           float: left;
           border: none;
           padding: 0; }
-        /* line 332, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 339, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar .nav-container .search-and-country form#input_ZOSearchBoxComponent a#search-delete {
           border: none;
           background: url(../img/btn-search-close.gif);
@@ -270,7 +270,7 @@ strong {
           right: 30px;
           top: 24px;
           text-indent: -9999px; }
-      /* line 344, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 351, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container .search-and-country ul#desktop-country-selector {
         padding: 0;
         border: 0 solid #ccc;
@@ -282,53 +282,53 @@ strong {
         height: 0;
         transition: 0.5s ease, border 0s;
         overflow: hidden; }
-        /* line 356, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 363, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar .nav-container .search-and-country ul#desktop-country-selector li {
           margin: 1em 0; }
-          /* line 359, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+          /* line 366, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
           .navbar .nav-container .search-and-country ul#desktop-country-selector li a {
             text-transform: uppercase; }
-            /* line 362, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+            /* line 369, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
             .navbar .nav-container .search-and-country ul#desktop-country-selector li a span {
               text-transform: none;
               color: #999;
               margin: 0;
               padding: 0;
               top: 0; }
-    /* line 374, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    /* line 381, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .navbar .nav-container .nav-left, .navbar .nav-container .nav-right {
       flex-grow: 4;
       flex-basis: 0;
       list-style: none;
       padding: 0;
       margin: 0; }
-      /* line 381, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 388, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container .nav-left li, .navbar .nav-container .nav-right li {
         display: inline-block;
         margin: auto 6px; }
-        /* line 387, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 394, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar .nav-container .nav-left li.open a img.active-triangle, .navbar .nav-container .nav-right li.open a img.active-triangle {
           display: block; }
-        /* line 392, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 399, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar .nav-container .nav-left li.open ul.drop-down, .navbar .nav-container .nav-right li.open ul.drop-down {
           height: 223px;
           transition: height 0.5s ease, border 0s;
           border-top-width: 4px;
           z-index: 10; }
-        /* line 400, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 407, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar .nav-container .nav-left li a, .navbar .nav-container .nav-right li a {
           font-weight: bold;
           color: #333;
           position: relative;
           overflow: visible; }
-          /* line 406, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+          /* line 413, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
           .navbar .nav-container .nav-left li a img.active-triangle, .navbar .nav-container .nav-right li a img.active-triangle {
             position: absolute;
             top: 51px;
             width: 20px;
             left: calc(50% - 10px);
             display: none; }
-        /* line 415, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 422, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar .nav-container .nav-left li ul.drop-down, .navbar .nav-container .nav-right li ul.drop-down {
           height: 0;
           padding: 0;
@@ -346,7 +346,7 @@ strong {
           transition: height 0.5s ease, border 0s;
           overflow: hidden;
           z-index: 9; }
-          /* line 433, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+          /* line 440, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
           .navbar .nav-container .nav-left li ul.drop-down li, .navbar .nav-container .nav-right li ul.drop-down li {
             margin: 0;
             display: inline-block;
@@ -355,256 +355,166 @@ strong {
             padding: 0 50px 40px;
             box-sizing: border-box;
             vertical-align: top; }
-            /* line 442, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+            /* line 449, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
             .navbar .nav-container .nav-left li ul.drop-down li a, .navbar .nav-container .nav-right li ul.drop-down li a {
               color: #036;
               margin: 0px; }
-              /* line 446, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+              /* line 453, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
               .navbar .nav-container .nav-left li ul.drop-down li a img, .navbar .nav-container .nav-right li ul.drop-down li a img {
                 width: 100%;
                 display: block;
                 margin: 40px 0; }
-              /* line 452, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+              /* line 459, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
               .navbar .nav-container .nav-left li ul.drop-down li a span, .navbar .nav-container .nav-right li ul.drop-down li a span {
                 font-size: 14px;
                 letter-spacing: 1px;
                 vertical-align: top;
                 display: block; }
-    /* line 464, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    /* line 471, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .navbar .nav-container .nav-left {
       order: 2;
       text-align: right; }
-    /* line 469, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    /* line 476, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .navbar .nav-container .nav-right {
       order: 4;
       text-align: left; }
-    /* line 474, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    /* line 481, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .navbar .nav-container .logo {
       order: 3;
       flex-grow: 1;
       margin: 0;
       padding: 0; }
-      /* line 480, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 487, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container .logo a.navbar-logo {
         display: inline-block; }
-        /* line 484, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 491, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar .nav-container .logo a.navbar-logo .content img {
           width: auto;
           height: 85px;
           transition: height 0.5s ease; }
-    /* line 493, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    /* line 500, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .navbar .nav-container .account-and-cart {
       order: 5;
       flex-grow: 3;
       flex-basis: 0;
       text-align: right; }
-      /* line 499, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 506, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .navbar .nav-container .account-and-cart a {
         display: inline-block;
         margin: 0 10px; }
-        /* line 503, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 510, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .navbar .nav-container .account-and-cart a .item-count {
           position: relative;
           top: -10px; }
 
-/* line 512, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+/* line 519, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
 .main {
-  width: 100%;
-  max-width: 1680px;
+  width: 100% !important;
+  min-width: 100% !important;
   margin: 0 auto; }
-  /* line 522, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+  /* line 523, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
   .main .heroTop {
-    padding: 250px 1em;
+    padding: 350px 1em;
     background: url("../img/surfHero.png") center center no-repeat;
     background-size: cover;
+    background-position: center;
     color: white;
-    max-width: 1680px;
-    width: 100%;
-    margin: 0 auto; }
-    /* line 531, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    width: 100%; }
+    /* line 530, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .main .heroTop h1 {
-      padding: 1rem;
-      font-size: 5em;
-      text-shadow: 0 0 20px rgba(51, 51, 51, 0.5); }
-  /* line 538, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      padding: 1rem 0;
+      text-shadow: 0 0 20px rgba(51, 51, 51, 0.5);
+      color: white; }
+  /* line 537, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
   .main .copyText {
     background-image: url(../img/nice_snow.png);
     background-size: cover;
     width: 100%;
-    background-clip: content-box;
-    max-width: 1680px; }
-    /* line 544, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    background-clip: content-box; }
+    /* line 542, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .main .copyText .keywordRichDescription {
       display: block;
-      font-size: 1.5rem;
+      font-size: 1.5em;
       margin: 0 auto;
       color: navy;
-      padding: 100px 0px;
+      padding: 100px 0px !important;
       max-width: 1000px;
       text-align: center; }
-  /* line 555, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+  /* line 553, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
   .main .ambassadorsAndProduct {
     width: 100%;
-    text-align: center;
-    background-color: transparent;
-    font-size: 0;
     margin: 0 auto;
     max-width: 1680px;
-    box-sizing: border-box;
     display: flex;
     flex-flow: row wrap; }
-    /* line 565, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+    /* line 559, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
     .main .ambassadorsAndProduct .card {
       flex-basis: 50%;
-      align-content: flex-start;
-      box-sizing: border-box;
       display: block;
       padding: 20px; }
-      /* line 571, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 563, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
+      .main .ambassadorsAndProduct .card .ambassadorLink {
+        padding: 0;
+        text-transform: none; }
+      /* line 568, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .main .ambassadorsAndProduct .card .topHalf {
         width: 100%;
         position: relative; }
-        /* line 574, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 571, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .main .ambassadorsAndProduct .card .topHalf .thHeader {
           text-align: center;
-          font-size: 3rem;
           color: white;
           margin-bottom: -10rem;
           position: absolute;
           text-shadow: 0 0 20px rgba(51, 51, 51, 0.5);
-          display: inline-block;
-          margin: 0 auto;
-          width: 100%; }
-        /* line 585, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+          width: 100%;
+          text-transform: uppercase; }
+        /* line 580, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .main .ambassadorsAndProduct .card .topHalf img {
           width: 100%;
           height: 100%; }
-      /* line 590, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+      /* line 585, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
       .main .ambassadorsAndProduct .card .bottomHalf {
         flex-flow: row wrap;
-        display: flex; }
-        /* line 593, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        /* line 590, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .main .ambassadorsAndProduct .card .bottomHalf .bhHeader {
-          font-size: 2.5rem;
           color: black;
-          text-align: center;
           padding: 10px 0px;
           align-content: flex-start;
           flex-basis: 100%; }
-        /* line 601, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 596, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .main .ambassadorsAndProduct .card .bottomHalf img {
           align-content: flex-start;
           flex-basis: 100%;
           width: 100%;
           height: 100%; }
-        /* line 607, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+        /* line 602, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
         .main .ambassadorsAndProduct .card .bottomHalf .description {
           display: flex;
           width: auto;
-          flex-flow: row wrap;
-          justify-content: flex-start;
-          align-items: flex-start; }
-          /* line 615, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+          flex-basis: 100%; }
+          /* line 608, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
           .main .ambassadorsAndProduct .card .bottomHalf .description .descriptionText {
             display: inline-block;
-            font-size: 1.5rem;
-            flex-basis: auto;
-            flex-grow: 0;
-            text-align: left;
-            width: 500px; }
-        /* line 624, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-        .main .ambassadorsAndProduct .card .bottomHalf .button {
-          display: inline-block;
-          background: #c30;
-          color: white;
-          padding: .5em;
-          text-align: center;
-          display: block;
-          width: 180px;
-          font-size: 1.3rem;
-          text-transform: uppercase;
-          vertical-align: middle;
-          height: 100%;
-          align-self: flex-end;
-          justify-content: flex-end;
-          margin-right: 30px; }
-    /* line 644, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .ambassadorsAndProduct .imageBackground {
-      height: auto;
-      width: 100%; }
-    /* line 649, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .ambassadorsAndProduct .content {
-      margin: 0 auto;
-      width: 100%;
-      vertical-align: middle;
-      background: white;
-      height: auto;
-      display: inline-block; }
-    /* line 658, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .ambassadorsAndProduct h1 {
-      text-align: center;
-      font-size: 3rem;
-      font-family: "Interstate", Helvetica, sans-serif;
-      padding: 1em;
-      text-transform: uppercase;
-      flex-basis: 100%;
-      flex-shrink: 0;
-      flex-grow: 1;
-      color: black;
-      background-color: transparent; }
-    /* line 671, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .ambassadorsAndProduct .upcomingEvent {
-      font-size: 1rem;
-      padding: 20px;
-      display: inline-block;
-      border-radius: 15px;
-      vertical-align: top;
-      width: 33.33%;
-      box-sizing: border-box; }
-      /* line 681, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .main .ambassadorsAndProduct .upcomingEvent img {
-        width: 100%;
-        height: 100%; }
-    /* line 687, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .ambassadorsAndProduct .eventDetails {
-      width: 100%;
-      margin: 16px;
-      flex-grow: 1;
-      flex-shrink: 1;
-      display: inline-block;
-      font-size: 1.3em;
-      vertical-align: middle;
-      margin: 0.5em 0em 0em 2rem;
-      color: black;
-      text-align: left;
-      margin-left: 2rem;
-      padding-right: 3em; }
-    /* line 703, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .ambassadorsAndProduct .moreDetails {
-      background: #c30;
-      color: white;
-      padding: .5em;
-      margin: 1em auto 2em 1.5em;
-      text-align: center;
-      display: block;
-      width: 180px;
-      font-size: 1.3em; }
+            font-size: 1.5em;
+            text-align: center; }
 
-/* line 715, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+/* line 618, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
 .mediaElement {
-  background-image: url(../img/nice_snow.png);
   background-size: cover;
   width: 100%;
-  max-width: 1680px;
   text-align: center; }
-  /* line 722, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+  /* line 623, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
   .mediaElement iframe {
     width: 100%;
     max-width: 1200px;
     height: 675px;
-    padding: 60px 0px; }
+    padding: 0 0 60px 0px; }
 
-/* line 730, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+/* line 631, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
 footer {
   background-color: #366;
   width: 100%;
@@ -614,222 +524,49 @@ footer {
   text-align: center; }
 
 @media screen and (max-width: 1679px) and (min-width: 992px) {
-  /* line 749, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+  /* line 645, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
   .navbar .nav-container .left-menu {
     display: inline-flex;
     flex-basis: 0;
     flex-grow: 2; }
-  /* line 755, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+  /* line 651, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
   .navbar .nav-container .search-and-country {
     display: none; }
-  /* line 759, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+  /* line 655, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
   .navbar .nav-container .nav-left, .navbar .nav-container .nav-right {
     display: none; }
-  /* line 766, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
+  /* line 662, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
   .navbar .nav-container .logo a.navbar-logo .content img {
     height: 50px; } }
 
 @media screen and (max-width: 991px) and (min-width: 500px) {
-  /* line 778, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .main .heroTop h1 {
-    padding: 1em 20px;
-    font-size: 4em; }
-  /* line 782, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .main .background h1 {
-    font-size: 4rem; }
-  /* line 785, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .main .upcomingEventList2 {
-    width: 100%; }
-    /* line 787, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .upcomingEventList2 .upcomingEvent {
-      width: 50%;
-      padding: 10px; }
-      /* line 792, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .main .upcomingEventList2 .upcomingEvent .card .content h2 {
-        font-size: 2rem; }
-      /* line 795, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .main .upcomingEventList2 .upcomingEvent .card .content .eventDetails {
-        font-size: 1rem; }
-      /* line 798, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .main .upcomingEventList2 .upcomingEvent .card .content .moreDetails {
-        font-size: 1rem; }
-  /* line 806, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .main .whiteBg .pastEvents {
-    width: 100%; }
-    /* line 808, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .whiteBg .pastEvents .pastEvent {
-      width: 50%;
-      padding: 10px; }
-      /* line 811, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .main .whiteBg .pastEvents .pastEvent .eventDetails {
-        font-size: 1rem; }
-  /* line 817, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .main .featuredEvents {
-    width: 100%;
-    padding: 10px; }
-    /* line 821, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .featuredEvents .eventList .eventName {
-      font-size: 3rem; }
-    /* line 824, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .featuredEvents .eventList .eventDetails {
-      font-size: 1rem; }
-    /* line 827, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .featuredEvents .eventList .moreDetails {
-      font-size: 1rem; }
-  /* line 834, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .detailPageContent .heroTop h1 {
-    padding: 1em 20px;
-    font-size: 4em; }
-  /* line 838, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .detailPageContent .background h1 {
-    font-size: 4rem; }
-  /* line 841, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .detailPageContent .upcomingEventList2 {
-    width: 100%; }
-    /* line 843, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .detailPageContent .upcomingEventList2 .upcomingEvent {
-      width: 50%;
-      padding: 10px; }
-      /* line 848, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .detailPageContent .upcomingEventList2 .upcomingEvent .card .content h2 {
-        font-size: 2rem; }
-      /* line 851, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .detailPageContent .upcomingEventList2 .upcomingEvent .card .content .eventDetails {
-        font-size: 1rem; }
-      /* line 854, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .detailPageContent .upcomingEventList2 .upcomingEvent .card .content .moreDetails {
-        font-size: 1rem; }
-  /* line 862, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .detailPageContent .pastEvents {
-    width: 100%; }
-    /* line 864, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .detailPageContent .pastEvents .pastEvent {
-      width: 50%;
-      padding: 10px; }
-      /* line 867, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .detailPageContent .pastEvents .pastEvent .eventDetails {
-        font-size: 1rem; }
-  /* line 872, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .detailPageContent .featuredEvents {
-    width: 100%;
-    padding: 10px; }
-    /* line 876, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .detailPageContent .featuredEvents .eventList .eventName {
-      font-size: 3rem; }
-    /* line 879, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .detailPageContent .featuredEvents .eventList .eventDetails {
-      font-size: 1rem; }
-    /* line 882, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .detailPageContent .featuredEvents .eventList .moreDetails {
-      font-size: 1rem; } }
+  /* line 674, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
+  body .main {
+    font-size: 12px; }
+    /* line 675, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
+    body .main p {
+      font-size: 14px; } }
 
 @media screen and (max-width: 499px) {
-  /* line 892, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .main .heroTop h1 {
-    text-align: center;
-    font-size: 3em;
-    padding: 1em 5px; }
-  /* line 897, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .main .background h1 {
-    font-size: 3rem; }
-  /* line 900, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .main .upcomingEventList2 {
-    width: 100%; }
-    /* line 902, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .upcomingEventList2 .upcomingEvent {
-      width: 100%;
-      padding: 10px; }
-      /* line 907, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .main .upcomingEventList2 .upcomingEvent .card .content h2 {
-        font-size: 2rem; }
-      /* line 910, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .main .upcomingEventList2 .upcomingEvent .card .content .eventDetails {
-        font-size: 1rem; }
-      /* line 913, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .main .upcomingEventList2 .upcomingEvent .card .content .moreDetails {
-        font-size: 1rem; }
-  /* line 921, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .main .whiteBg .pastEvents {
-    width: 100%; }
-    /* line 923, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .whiteBg .pastEvents .pastEvent {
-      width: 100%;
-      padding: 10px; }
-      /* line 926, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .main .whiteBg .pastEvents .pastEvent .eventDetails {
-        font-size: 1rem; }
-  /* line 932, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .main .featuredEvents {
+  /* line 685, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
+  body .main {
+    font-size: 12px; }
+    /* line 686, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
+    body .main .heroTop {
+      padding: 100px 0; }
+    /* line 690, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
+    body .main .copyText .keywordRichDescription {
+      padding: 20px 0px !important; }
+    /* line 695, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
+    body .main .ambassadorsAndProduct .card {
+      flex-basis: 100%; }
+    /* line 699, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
+    body .main p {
+      font-size: 12px; }
+  /* line 705, /Users/retail/Desktop/code/sportSpecificLandingPage/css/style.scss */
+  body .mediaElement iframe {
     width: 100%;
-    padding: 10px; }
-    /* line 935, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .main .featuredEvents .eventList {
-      padding: 5px; }
-      /* line 937, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .main .featuredEvents .eventList li {
-        margin: 0 auto; }
-      /* line 940, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .main .featuredEvents .eventList .eventName {
-        font-size: 2rem; }
-      /* line 943, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .main .featuredEvents .eventList .eventDetails {
-        font-size: 1rem; }
-      /* line 946, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .main .featuredEvents .eventList .moreDetails {
-        font-size: 1rem; }
-  /* line 954, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .detailPageContent .heroTop h1 {
-    text-align: center;
-    font-size: 3em;
-    padding: 1em 5px; }
-  /* line 959, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .detailPageContent .background h1 {
-    font-size: 3rem; }
-  /* line 962, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .detailPageContent .upcomingEventList2 {
-    width: 100%; }
-    /* line 964, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .detailPageContent .upcomingEventList2 .upcomingEvent {
-      width: 100%;
-      padding: 10px; }
-      /* line 969, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .detailPageContent .upcomingEventList2 .upcomingEvent .card .content h2 {
-        font-size: 2rem; }
-      /* line 972, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .detailPageContent .upcomingEventList2 .upcomingEvent .card .content .eventDetails {
-        font-size: 1rem; }
-      /* line 975, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .detailPageContent .upcomingEventList2 .upcomingEvent .card .content .moreDetails {
-        font-size: 1rem; }
-  /* line 982, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .detailPageContent .pastEvents {
-    width: 100%; }
-    /* line 984, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .detailPageContent .pastEvents .pastEvent {
-      width: 100%;
-      padding: 10px; }
-      /* line 987, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .detailPageContent .pastEvents .pastEvent .eventDetails {
-        font-size: 1rem; }
-  /* line 992, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-  .detailPageContent .featuredEvents {
-    width: 100%;
-    padding: 10px;
-    height: 600px; }
-    /* line 996, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-    .detailPageContent .featuredEvents .eventList {
-      padding: 5px; }
-      /* line 998, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .detailPageContent .featuredEvents .eventList li {
-        margin: 0 auto; }
-      /* line 1001, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .detailPageContent .featuredEvents .eventList .eventName {
-        font-size: 2rem; }
-      /* line 1004, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .detailPageContent .featuredEvents .eventList .eventDetails {
-        font-size: 1rem; }
-      /* line 1007, /Users/retail/Desktop/code/sportsPageTemplate/css/style.scss */
-      .detailPageContent .featuredEvents .eventList .moreDetails {
-        font-size: 1rem; } }
+    max-width: 500px;
+    height: 390px; } }
 
 /*# sourceMappingURL=style.css.map */
